@@ -42,7 +42,6 @@ import {
 } from "chessops";
 import { INITIAL_FEN, makeFen } from "chessops/fen";
 import { useAtom, useAtomValue } from "jotai";
-import OpenAI from "openai";
 import {
 	Suspense,
 	useContext,
@@ -61,10 +60,10 @@ import EngineSettingsForm from "../panels/analysis/EngineSettingsForm";
 import Board from "./Board";
 import GameNotation from "./GameNotation";
 
-const openai = new OpenAI({
-	apiKey: "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",
-	dangerouslyAllowBrowser: true
-})
+// const openai = new OpenAI({
+// 	apiKey: "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",
+// 	dangerouslyAllowBrowser: true
+// })
 
 // function makeMove({
 // 	state,
