@@ -61,7 +61,6 @@ import Board from "./Board";
 import GameNotation from "./GameNotation";
 
 // const openai = new OpenAI({
-// 	apiKey: "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",
 // 	dangerouslyAllowBrowser: true
 // })
 
