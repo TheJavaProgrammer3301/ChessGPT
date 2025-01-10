@@ -1,0 +1,275 @@
+"filename", "language", "JSON", "Django HTML", "Markdown", "TypeScript", "JSON with Comments", "XML", "TypeScript JSX", "Rust", "SQL", "CSS", "YAML", "comment", "blank", "total"
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\.github\FUNDING.yml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\.github\ISSUE_TEMPLATE\bug.yml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 1, 5, 46
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\.github\ISSUE_TEMPLATE\improvement.yml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\.github\workflows\prerelease.yml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55, 0, 9, 64
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\.github\workflows\release.yml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 0, 10, 60
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\.github\workflows\test.yml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 0, 7, 37
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\CONTRIBUTING.md", "Markdown", 0, 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 74
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\README.md", "Markdown", 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 56
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\biome.json", "JSON", 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\index.html", "Django HTML", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\package-lock.json", "JSON", 9234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9235
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\package.json", "JSON", 98, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 99
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\pnpm-lock.yaml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5044, 0, 1404, 6448
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\board\blue.svg", "XML", 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 1, 21
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\board\brown.svg", "XML", 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 1, 21
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\board\gray.svg", "XML", 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 0, 0, 0, 19
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\board\green.svg", "XML", 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 1, 21
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\board\ic.svg", "XML", 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 1, 21
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\board\newspaper.svg", "XML", 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 1, 26
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\board\purple.svg", "XML", 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 1, 21
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\alpha.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\anarcandy.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\california.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\cardinal.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\cburnett.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\chess7.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\chessnut.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\companion.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\disguised.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 0, 12
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\dubrovny.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\fantasy.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\fresca.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\gioco.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\governor.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\horsey.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\icpieces.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\kosal.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\leipzig.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\letter.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\libra.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\maestro.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\merida.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\pirouetti.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\pixel.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\reillycraig.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\riohacha.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\shapes.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\spatial.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\staunty.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\public\pieces\tatiana.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\build.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\chess.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 814, 0, 0, 0, 1, 100, 915
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\db\create.sql", "SQL", 0, 0, 0, 0, 0, 0, 0, 0, 45, 0, 0, 0, 5, 50
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\db\delete_indexes.sql", "SQL", 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 1, 9
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\db\encoding.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 54, 0, 0, 0, 0, 10, 64
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\db\indexes.sql", "SQL", 0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 1, 8
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\db\mod.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 1382, 0, 0, 0, 23, 180, 1585
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\db\models.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 127, 0, 0, 0, 0, 14, 141
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\db\ops.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 56, 0, 0, 0, 3, 15, 74
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\db\schema.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 108, 0, 0, 0, 0, 9, 117
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\db\search.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 514, 0, 0, 0, 6, 66, 586
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\error.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 74, 0, 0, 0, 0, 31, 105
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\fide.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 160, 0, 0, 0, 0, 22, 182
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\fs.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 149, 0, 0, 0, 3, 20, 172
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\lexer.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 0, 16, 75
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\main.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 305, 0, 0, 0, 0, 25, 330
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\oauth.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 18, 120
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\opening.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 151, 0, 0, 0, 0, 20, 171
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\pgn.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 195, 0, 0, 0, 1, 47, 243
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\src\puzzle.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 105, 0, 0, 0, 0, 19, 124
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src-tauri\tauri.conf.json", "JSON", 119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 119
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\App.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 163, 0, 0, 0, 0, 1, 19, 183
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\bindings\generated.ts", "TypeScript", 0, 0, 0, 251, 0, 0, 0, 0, 0, 0, 0, 66, 12, 329
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\bindings\index.ts", "TypeScript", 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\chessground\Chessground.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 72, 0, 0, 0, 0, 0, 8, 80
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\About.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 53, 0, 0, 0, 0, 0, 6, 59
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\ErrorComponent.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 4, 71
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\Sidebar.css.ts", "TypeScript", 0, 0, 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 4, 38
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\Sidebar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 70, 0, 0, 0, 0, 0, 7, 77
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\TopBar.css.ts", "TypeScript", 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 3, 18
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\TopBar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 151, 0, 0, 0, 0, 0, 10, 161
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\AnnotationHint.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 260, 0, 0, 0, 0, 1, 4, 265
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\Board.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 703, 0, 0, 0, 0, 10, 46, 759
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\BoardAnalysis.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 246, 0, 0, 0, 0, 0, 13, 259
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\BoardGame.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 769, 0, 0, 0, 0, 29, 91, 889
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\Clock.css.ts", "TypeScript", 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 3, 23
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\Clock.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 58, 0, 0, 0, 0, 0, 5, 63
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\CompleteMoveCell.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 140, 0, 0, 0, 0, 0, 9, 149
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\EditingCard.css.ts", "TypeScript", 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\EditingCard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 43, 0, 0, 0, 0, 0, 4, 47
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\EvalBar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 0, 7, 94
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\EvalListener.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 228, 0, 0, 0, 0, 0, 12, 240
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\GameNotation.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 307, 0, 0, 0, 0, 0, 13, 320
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\MoveCell.css.ts", "TypeScript", 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 2, 30
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\MoveCell.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 68, 0, 0, 0, 0, 0, 8, 76
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\MoveInput.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 3, 41
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\OpeningName.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 5, 25
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\PiecesGrid.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 43, 0, 0, 0, 0, 0, 3, 46
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\boards\PromotionModal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 83, 0, 0, 0, 0, 1, 5, 89
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\AccountCards.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 297, 0, 0, 0, 0, 0, 11, 308
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\ChallengeHistory.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 80, 0, 0, 0, 0, 0, 5, 85
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\Comment.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 4, 32
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\ConfirmModal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 5, 46
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\EvalChart.css.ts", "TypeScript", 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 3, 23
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\EvalChart.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 267, 0, 0, 0, 0, 0, 19, 286
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\FileInput.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 3, 39
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\GameInfo.css.ts", "TypeScript", 0, 0, 0, 85, 0, 0, 0, 0, 0, 0, 0, 0, 10, 95
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\GameInfo.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 267, 0, 0, 0, 0, 0, 8, 275
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\GenericCard.css.ts", "TypeScript", 0, 0, 0, 51, 0, 0, 0, 0, 0, 0, 0, 0, 9, 60
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\GenericCard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 64, 0, 0, 0, 0, 0, 4, 68
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\GoModeInput.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 0, 0, 6, 66
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\LocalImage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 4, 22
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\MoveControls.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 0, 0, 5, 65
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\OpenFolderButton.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 29, 0, 0, 0, 0, 0, 4, 33
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\Piece.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 78, 0, 0, 0, 0, 0, 5, 83
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\ProgressButton.css.ts", "TypeScript", 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 3, 21
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\ProgressButton.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 95, 0, 0, 0, 0, 0, 8, 103
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\ShowMaterial.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 52, 0, 0, 0, 0, 0, 4, 56
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\TimeInput.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 62, 0, 0, 0, 0, 1, 4, 67
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\ToggleButtonGroup.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 45, 0, 0, 0, 0, 0, 6, 51
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\common\TreeStateContext.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 4, 24
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\AddDatabase.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 15, 270
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\ConvertButton.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 57, 0, 0, 0, 0, 0, 6, 63
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\DatabaseView.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 81, 0, 0, 0, 0, 0, 4, 85
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\DatabasesPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 523, 0, 0, 0, 0, 0, 33, 556
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\FideInfo.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 164, 0, 0, 0, 0, 0, 11, 175
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\GameCard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 76, 0, 0, 0, 0, 0, 6, 82
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\GamePreview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 105, 0, 0, 0, 0, 0, 8, 113
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\GameTable.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 323, 0, 0, 0, 0, 0, 12, 335
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\GridLayout.css.ts", "TypeScript", 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\GridLayout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 4, 44
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\PlayerCard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 31, 0, 0, 0, 0, 0, 4, 35
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\PlayerSearchInput.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 63, 0, 0, 0, 0, 0, 5, 68
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\PlayerTable.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 170, 0, 0, 0, 0, 0, 7, 177
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\SideInput.css.ts", "TypeScript", 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 4, 29
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\SideInput.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 86, 0, 0, 0, 0, 0, 6, 92
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\SpeedBadge.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\TournamentCard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 240, 0, 0, 0, 0, 2, 13, 255
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\TournamentTable.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 135, 0, 0, 0, 0, 0, 7, 142
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\countries.json", "JSON", 3986, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3987
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\databases\styles.css.ts", "TypeScript", 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\engines\AddEngine.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 274, 0, 0, 0, 0, 1, 14, 289
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\engines\EditEngine.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 5, 43
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\engines\EngineForm.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 99, 0, 0, 0, 0, 2, 9, 110
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\engines\EnginesPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 621, 0, 0, 0, 0, 3, 26, 650
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\files\DirectoryTable.css.ts", "TypeScript", 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 6, 32
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\files\DirectoryTable.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 323, 0, 0, 0, 0, 2, 19, 344
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\files\FileCard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 111, 0, 0, 0, 0, 0, 12, 123
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\files\FilesPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 223, 0, 0, 0, 0, 0, 15, 238
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\files\Modals.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 206, 0, 0, 0, 0, 0, 21, 227
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\files\file.ts", "TypeScript", 0, 0, 0, 71, 0, 0, 0, 0, 0, 0, 0, 0, 9, 80
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\files\opening.ts", "TypeScript", 0, 0, 0, 105, 0, 0, 0, 0, 0, 0, 0, 0, 14, 119
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\home\AccountCard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 275, 0, 0, 0, 0, 0, 11, 286
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\home\Accounts.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 218, 0, 0, 0, 0, 0, 13, 231
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\home\Databases.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 223, 0, 0, 0, 0, 0, 23, 246
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\home\HomePage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 3, 28
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\home\LichessLogo.css.ts", "TypeScript", 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 2, 18
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\home\LichessLogo.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 0, 3, 20
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\home\PersonalCard.css.ts", "TypeScript", 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\home\PersonalCard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 483, 0, 0, 0, 0, 2, 30, 515
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\home\styles.css.ts", "TypeScript", 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 7, 45
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\AnalysisPanel.css.ts", "TypeScript", 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\AnalysisPanel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 327, 0, 0, 0, 0, 0, 15, 342
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\AnalysisRow.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0, 11, 219
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\BestMoves.css.ts", "TypeScript", 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\BestMoves.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 392, 0, 0, 0, 0, 0, 17, 409
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\CoresSlider.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 3, 24
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\EngineSelection.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 0, 7, 94
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\EngineSettingsForm.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 220, 0, 0, 0, 0, 0, 17, 237
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\HashSlider.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 0, 0, 5, 55
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\LinesSlider.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 0, 3, 20
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\LogsPanel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 151, 0, 0, 0, 0, 0, 12, 163
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\ReportModal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 174, 0, 0, 0, 0, 0, 15, 189
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\ReportPanel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 179, 0, 0, 0, 0, 0, 13, 192
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\ScoreBubble.css.ts", "TypeScript", 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\ScoreBubble.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 0, 3, 90
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\TablebaseInfo.css.ts", "TypeScript", 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 2, 16
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\analysis\TablebaseInfo.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 144, 0, 0, 0, 0, 0, 9, 153
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\annotation\AnnotationEditor.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 76, 0, 0, 0, 0, 0, 9, 85
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\annotation\AnnotationPanel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 121, 0, 0, 0, 0, 0, 9, 130
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\database\DatabaseLoader.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 46, 0, 0, 0, 0, 0, 7, 53
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\database\DatabasePanel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 243, 0, 0, 0, 0, 0, 21, 264
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\database\GamesTable.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 0, 4, 91
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\database\NoDatabaseWarning.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 0, 4, 21
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\database\OpeningsTable.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 123, 0, 0, 0, 0, 0, 6, 129
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\database\options\LichessOptionsPanel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 156, 0, 0, 0, 0, 0, 10, 166
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\database\options\LocalOptionsPanel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 179, 0, 0, 0, 0, 0, 9, 188
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\database\options\MastersOptionsPanel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 35, 0, 0, 0, 0, 0, 3, 38
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\info\FenInput.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 137, 0, 0, 0, 0, 0, 8, 145
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\info\FenSearch.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 135, 0, 0, 0, 0, 0, 13, 148
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\info\FileInfo.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 49, 0, 0, 0, 0, 0, 5, 54
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\info\GameSelector.css.ts", "TypeScript", 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 3, 36
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\info\GameSelector.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 164, 0, 0, 0, 0, 0, 9, 173
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\info\InfoPanel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 150, 0, 0, 0, 0, 0, 17, 167
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\info\PgnInput.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 149, 0, 0, 0, 0, 0, 12, 161
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\practice\PracticePanel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 396, 0, 0, 0, 0, 0, 23, 419
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\panels\practice\RepertoireInfo.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 171, 0, 0, 0, 0, 0, 13, 184
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\puzzles\AddPuzzle.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 143, 0, 0, 0, 0, 0, 8, 151
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\puzzles\PuzzleBoard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 167, 0, 0, 0, 0, 0, 12, 179
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\puzzles\Puzzles.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 336, 0, 0, 0, 0, 0, 16, 352
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\BoardSelect.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 108, 0, 0, 0, 0, 0, 10, 118
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\ColorControl.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 4, 45
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\FontSizeSlider.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 4, 32
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\KeybindInput.css.ts", "TypeScript", 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\KeybindInput.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 104, 0, 0, 0, 0, 1, 8, 113
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\PiecesSelect.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 109, 0, 0, 0, 0, 0, 10, 119
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\SettingsNumberInput.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 0, 2, 26
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\SettingsPage.css.ts", "TypeScript", 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 4, 27
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\SettingsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 649, 0, 0, 0, 0, 1, 15, 665
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\SettingsSwitch.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 2, 25
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\SoundSelect.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 82, 0, 0, 0, 0, 0, 10, 92
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\ThemeButton.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 42, 0, 0, 0, 0, 0, 4, 46
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\settings\VolumeSlider.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 4, 36
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\tabs\BoardTab.css.ts", "TypeScript", 0, 0, 0, 49, 0, 0, 0, 0, 0, 0, 0, 0, 5, 54
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\tabs\BoardTab.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 113, 0, 0, 0, 0, 1, 5, 119
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\tabs\BoardsPage.css.ts", "TypeScript", 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 3, 24
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\tabs\BoardsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 322, 0, 0, 0, 0, 0, 20, 342
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\tabs\ConfirmChangesModal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 63, 0, 0, 0, 0, 0, 6, 69
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\tabs\ContentEditable.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 104, 0, 0, 0, 0, 0, 6, 110
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\tabs\ImportModal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 302, 0, 0, 0, 0, 0, 19, 321
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\components\tabs\NewTabHome.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 104, 0, 0, 0, 0, 0, 9, 113
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 5, 28
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\routeTree.gen.ts", "TypeScript", 0, 0, 0, 98, 0, 0, 0, 0, 0, 0, 0, 49, 21, 168
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\routes\__root.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 214, 0, 0, 0, 0, 0, 16, 230
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\routes\accounts.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 2, 7
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\routes\databases\$databaseId.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 2, 7
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\routes\databases\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 2, 20
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\routes\engines.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 3, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\routes\files.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 2, 8
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\routes\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 2, 8
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\routes\settings.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\state\atoms.ts", "TypeScript", 0, 0, 0, 451, 0, 0, 0, 0, 0, 0, 0, 11, 65, 527
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\state\keybinds.ts", "TypeScript", 0, 0, 0, 76, 0, 0, 0, 0, 0, 0, 0, 0, 4, 80
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\state\store.ts", "TypeScript", 0, 0, 0, 649, 0, 0, 0, 0, 0, 0, 0, 27, 69, 745
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\state\utils.ts", "TypeScript", 0, 0, 0, 87, 0, 0, 0, 0, 0, 0, 0, 0, 5, 92
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\styles\Chessboard.css.ts", "TypeScript", 0, 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 3, 25
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\styles\chessgroundBaseOverride.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 145, 0, 2, 26, 173
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\styles\chessgroundColorsOverride.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 0, 2, 4, 44
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\styles\global.css.ts", "TypeScript", 0, 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 6, 49
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\styles\react-mosaic.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 0, 3, 16
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\styles\theme.ts", "TypeScript", 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 3, 3, 13
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\translation\en_US.ts", "TypeScript", 0, 0, 0, 345, 0, 0, 0, 0, 0, 0, 0, 0, 16, 361
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\translation\pt_PT.ts", "TypeScript", 0, 0, 0, 344, 0, 0, 0, 0, 0, 0, 0, 0, 16, 360
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\translation\zh_CN.ts", "TypeScript", 0, 0, 0, 333, 0, 0, 0, 0, 0, 0, 0, 0, 16, 349
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\annotation.ts", "TypeScript", 0, 0, 0, 149, 0, 0, 0, 0, 0, 0, 0, 0, 9, 158
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\chess.com\api.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 232, 0, 0, 0, 0, 0, 20, 252
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\chess.com\tcn.ts", "TypeScript", 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 10, 39
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\chess.ts", "TypeScript", 0, 0, 0, 644, 0, 0, 0, 0, 0, 0, 0, 3, 56, 703
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\chessdb\api.ts", "TypeScript", 0, 0, 0, 138, 0, 0, 0, 0, 0, 0, 0, 0, 20, 158
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\chessops.ts", "TypeScript", 0, 0, 0, 155, 0, 0, 0, 0, 0, 0, 0, 0, 17, 172
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\db.ts", "TypeScript", 0, 0, 0, 300, 0, 0, 0, 0, 0, 0, 0, 0, 30, 330
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\engines.ts", "TypeScript", 0, 0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 1, 15, 123
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\files.ts", "TypeScript", 0, 0, 0, 84, 0, 0, 0, 0, 0, 0, 0, 0, 5, 89
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\format.ts", "TypeScript", 0, 0, 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 8, 56
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\invoke.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 4, 45
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\lichess\api.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 396, 0, 0, 0, 0, 1, 30, 427
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\lichess\explorer.ts", "TypeScript", 0, 0, 0, 128, 0, 0, 0, 0, 0, 0, 0, 2, 13, 143
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\misc.ts", "TypeScript", 0, 0, 0, 82, 0, 0, 0, 0, 0, 0, 0, 1, 13, 96
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\puzzles.ts", "TypeScript", 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 6, 39
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\repertoire.ts", "TypeScript", 0, 0, 0, 102, 0, 0, 0, 0, 0, 0, 0, 1, 10, 113
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\score.ts", "TypeScript", 0, 0, 0, 126, 0, 0, 0, 0, 0, 0, 0, 0, 13, 139
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\session.ts", "TypeScript", 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 4, 21
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\sound.ts", "TypeScript", 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 1, 6, 30
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\tabs.ts", "TypeScript", 0, 0, 0, 134, 0, 0, 0, 0, 0, 0, 0, 0, 8, 142
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\tests\chess.test.ts", "TypeScript", 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\tests\chessops.test.ts", "TypeScript", 0, 0, 0, 49, 0, 0, 0, 0, 0, 0, 0, 0, 6, 55
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\tests\misc.test.ts", "TypeScript", 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\tests\score.test.ts", "TypeScript", 0, 0, 0, 71, 0, 0, 0, 0, 0, 0, 0, 0, 11, 82
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\tests\store.test.ts", "TypeScript", 0, 0, 0, 458, 0, 0, 0, 0, 0, 0, 0, 0, 48, 506
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\utils\treeReducer.ts", "TypeScript", 0, 0, 0, 162, 0, 0, 0, 0, 0, 0, 0, 3, 14, 179
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\src\vite-env.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\tsconfig.json", "JSON with Comments", 0, 0, 0, 0, 24, 0, 0, 0, 0, 0, 0, 0, 1, 25
+"c:\Users\Student\Desktop\JasonR\Chess\en-croissant-master\en-croissant-master\vite.config.ts", "TypeScript", 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 2, 3, 34
+"Total", "-", 13469, 11, 85, 6574, 24, 144, 19122, 4358, 60, 556, 5232, 272, 4170, 54077
