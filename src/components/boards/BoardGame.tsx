@@ -36,11 +36,10 @@ import {
 	IconZoomCheck,
 } from "@tabler/icons-react";
 import {
-	type NormalMove,
 	parseSquare,
 	parseUci
 } from "chessops";
-import { INITIAL_FEN, makeFen } from "chessops/fen";
+import { INITIAL_FEN } from "chessops/fen";
 import { useAtom, useAtomValue } from "jotai";
 import {
 	Suspense,
@@ -105,14 +104,11 @@ function EnginesSelect({
 	engine: LocalEngine | null;
 	setEngine: (engine: LocalEngine | null) => void;
 }) {
-	const engines = [{
-		name: "ChatGPT",
-		path: "ChatGPT",
+	const engines = Object.values(ChessGPT.Modes).map(mode => ({
+		name: mode,
+		path: mode,
 		elo: 5.5
-	}]
-	// useAtomValue(enginesAtom).filter(
-	// 	(e): e is LocalEngine => e.type === "local",
-	// );
+	} as LocalEngine));
 
 	useEffect(() => {
 		if (engines.length > 0 && engine === null) {
@@ -131,7 +127,10 @@ function EnginesSelect({
 				}))}
 				value={engine?.path ?? ""}
 				onChange={(e) => {
-					// setEngine(engines.find((engine) => engine.path === e) ?? null as LocalEngine);
+					// setEngine({
+
+					// })
+					setEngine((engines.find((engine) => engine.path === e) ?? null) as LocalEngine);
 				}}
 			/>
 		</Suspense>
@@ -325,28 +324,17 @@ const DEFAULT_TIME_CONTROL: TimeControlField = {
 	increment: 2_000,
 };
 
-function randomSquare(set: SquareSet) {
-	let r = Math.floor(Math.random() * set.size())
-
-	for (let i = 0; i < set.size(); i++) {
-		if (i < r) {
-			set = set.withoutFirst()
-		}
-	}
-
-	return set.first()
-}
-
 let ai_data: [ChatCompletionMessageParam] = [
 	{ role: "system", content: "You are a chess AI. You are playing as black. Respond only with chess moves stating the start and end position of your move, such as b4-d4." }
 ]
 
 import { SquareSet } from 'chessops';
 import { attacks } from 'chessops/attacks';
-import { Chess, Position } from 'chessops/chess';
+import { Position } from 'chessops/chess';
 import { CastlingSide, Move, Role, SquareName } from 'chessops/types';
 import { charToRole, defined, opposite, squareFile } from 'chessops/util';
 import { ChatCompletionMessageParam } from "openai/resources/index.mjs";
+import { ChessGPT } from "./ChessGPT";
 
 const parseSanSource = (pos: Position, san: string): [Move | number | undefined, string | undefined, number | undefined] => {
 	const ctx = pos.ctx();
@@ -456,6 +444,11 @@ const parseSanSource = (pos: Position, san: string): [Move | number | undefined,
 	}
 };
 
+function getEnumKeyByEnumValue<T extends { [index: string]: string }>(myEnum: T, enumValue: string): keyof T | null {
+	let keys = Object.keys(myEnum).filter(x => myEnum[x] == enumValue);
+	return keys.length > 0 ? keys[0] : null;
+}
+
 function BoardGame() {
 	const activeTab = useAtomValue(activeTabAtom);
 
@@ -514,7 +507,7 @@ function BoardGame() {
 			),
 		);
 	}
-	console.log("Reading last node?");
+
 	const mainLine = Array.from(treeIteratorMainLine(root));
 	const currentNode = getNodeAtPath(root, position);
 	const lastNode = mainLine[mainLine.length - 1].node;
@@ -541,33 +534,22 @@ function BoardGame() {
 				setGameState("gameOver");
 				return;
 			}
+
 			const currentTurn = pos.turn;
 			const player = currentTurn === "white" ? players.white : players.black;
 
-			// k++
-
-			// console.log(k)
+			const boardMode = true;
 
 			if (player.type === "engine") {
-				ai_data.push({
-					role: "user",
-					content: lastNode.san
-				} as ChatCompletionMessageParam)
-
-				console.log(ai_data)
+				const chessGPTArgs = {
+					blackTime: blackTime as number, whiteTime: whiteTime as number, currentTurn, storeMakeMove, position: pos, setFen, lastNode
+				};
 
 				!!(async () => {
 					try {
 						for (let j = 0; j < 5; j++) {
-							console.log(getPGN(root, {
-								comments: false,
-								variations: false,
-								extraMarkups: false,
-								root: true,
-								glyphs: false,
-								headers: null
-							}));
-							let completion = (await (await fetch('https://chatgpt.thejavacoder.workers.dev/', {
+							const additionalArguments = ChessGPT.ModeAdditionalArguments[(player.engine?.path as ChessGPT.Modes)];
+							const completion = await fetch('https://chatgpt.thejavacoder.workers.dev/', {
 								body: JSON.stringify({
 									board: lastNode.fen,
 									game: getPGN(root, {
@@ -577,188 +559,21 @@ function BoardGame() {
 										root: true,
 										glyphs: false,
 										headers: null
-									})
+									}),
+									turn: currentTurn,
+									...additionalArguments
 								}),
 								method: 'POST'
-							})).json()) as { piece: Role, start: string, end: string };
+							}).then(response => response.json()) as { piece: Role, start: string, end: string, board: string };
 
-							const move = {
-								from: parseSquare(completion.start),
-								to: parseSquare(completion.end)
-							} as NormalMove
+							const result = ChessGPT.ModeCallbacks[(player.engine?.path as ChessGPT.Modes)](completion, {
+								blackTime: blackTime as number, whiteTime: whiteTime as number, currentTurn, storeMakeMove, position: pos, setFen, lastNode
+							});
 
-							let [originalPos] = positionFromFen(lastNode.fen)
-
-							if (!originalPos) return;
-
-							let tempPos = originalPos.clone();
-
-							console.log(move.from, tempPos.board.occupied);
-
-							if (!tempPos.board.occupied.has(move.from)) {
-								console.warn("Can't find!");
-
-								const k = (originalPos.board as unknown as { [key: string]: SquareSet });
-								// move.from = randomSquare(k[completion.piece].intersect(originalPos.board.black)) ?? randomSquare(originalPos.board.black) as number;
-
-								tempPos.board.set(move.from, {
-									color: "black",
-									role: completion.piece
-								});
-
-								lastNode.fen = makeFen(tempPos.toSetup());
-							}
-
-							tempPos.play(move);
-
-							const newFen = makeFen(tempPos.toSetup());
-							const [newPos, newError] = positionFromFen(newFen)
-
-							if (newError != null) {
-								console.warn("Bad boy :)");
-
-								continue;
-							} else {
-								// pos.board.set(move.from, {
-								// 	color: "black",
-								// 	role: completion.piece
-								// });
-
-								storeMakeMove({
-									payload: move,
-									clock: (pos.turn === "white" ? whiteTime : blackTime) ?? undefined
-								});
-
+							if (result)
 								return;
-							}
-
-							// let completion = await openai.chat.completions.create({
-							// 	messages: ai_data,
-							// 	model: "gpt-3.5-turbo",
-							// 	response_format: {"type": "json_object"}
-							// });
-
-							// console.log(completion.choices[0].message.content)
-
-							// for (let i = 0; i < completion.choices.length; i++) {
-							// 	const message = completion.choices[i].message;
-							// 	const choice = message.content;
-
-							// 	if (!choice) return;
-
-							// 	ai_data.push(message)
-
-							// 	let [originalPos] = positionFromFen(lastNode.fen)
-
-							// 	if (!originalPos) return;
-
-							// 	{
-							// 		let match = choice?.match(/([a-z][1-8])[\-,x]([a-z][1-8])/)
-
-							// 		if (match) {
-							// 			const move = {
-							// 				from: parseSquare(match[1]),
-							// 				to: parseSquare(match[2])
-							// 			} as NormalMove
-
-							// 			console.log(move)
-
-							// 			// Move is illegal if the AI tries to move from a square with no pieces
-							// 			if (!pos.board.occupied.has(move.from)) {
-							// 				console.warn("Using random piece!")
-
-							// 				move.from = randomSquare(originalPos.board.black) as number
-							// 			}
-
-							// 			if (!originalPos?.board.black.has(move.from)) {
-							// 				ai_data.push({
-							// 					"role": "system", "content": "Your move is illegal, please try again with a different move. Remember to state the start and end position of your move, such as b4-d4."
-							// 				})
-
-							// 				console.warn("Failed!")
-
-							// 				continue;
-							// 			}
-
-							// 			let tempPos = originalPos.clone()
-
-							// 			tempPos.play(move);
-
-							// 			const newFen = makeFen(tempPos.toSetup());
-							// 			const [newPos, newError] = positionFromFen(newFen)
-
-							// 			if (newError != null) {
-							// 				ai_data.push({
-							// 					"role": "system", "content": "Your move is illegal, please try again with a different move. Remember to state the start and end position of your move, such as b4-d4."
-							// 				})
-
-							// 				console.warn("Failed!")
-
-							// 				continue;
-							// 			}
-
-							// 			console.log("Successfully parsed as an explicit coordinate.")
-
-							// 			storeMakeMove({
-							// 				payload: move,
-							// 				clock: (pos.turn === "white" ? whiteTime : blackTime) ?? undefined
-							// 			});
-
-							// 			return;
-							// 		}
-							// 	}
-
-							// 	{
-							// 		let [sanMove, arg2, arg3] = parseSanSource(pos, choice)
-
-							// 		if (sanMove == 379 && arg2 != undefined && arg3 != undefined) {
-							// 			console.warn("Attempt to move piece that does not exist, setting", makeSquare(arg3), "to", arg2)
-
-							// 			pos.board.set(arg3, {
-							// 				color: "black",
-							// 				role: arg2 as Role
-							// 			})
-							// 		}
-
-							// 		[sanMove, arg2, arg3] = parseSanSource(pos, choice)
-
-							// 		if (sanMove != undefined) {
-							// 			let tempPos = originalPos.clone()
-
-							// 			tempPos.play(sanMove as Move);
-
-							// 			const newFen = makeFen(tempPos.toSetup());
-							// 			const [newPos, newError] = positionFromFen(newFen)
-
-							// 			if (newError != null) {
-							// 				ai_data.push({
-							// 					"role": "system", "content": "Your move is illegal, please try again with a different move. Remember to state the start and end position of your move, such as b4-d4."
-							// 				})
-
-							// 				continue;
-							// 			}
-
-							// 			if (!originalPos?.board.black.has((sanMove as NormalMove).from)) {
-							// 				ai_data.push({
-							// 					"role": "system", "content": "Your move is illegal, please try again with a different move. Remember to state the start and end position of your move, such as b4-d4."
-							// 				})
-
-							// 				continue;
-							// 			}
-
-							// 			console.log("Parsed SAN move successfully!")
-
-							// 			storeMakeMove({
-							// 				payload: sanMove as Move,
-							// 				clock: (pos.turn === "white" ? whiteTime : blackTime) ?? undefined
-							// 			});
-
-							// 			return;
-							// 		}
-							// 	}
-							// }
-
-							console.warn("Retrying! Failed to parse: " + completion);
+							else
+								continue;
 						}
 					} catch (e) {
 						console.warn(e)
@@ -766,63 +581,8 @@ function BoardGame() {
 
 					console.warn("Could not find a solution! Using random!")
 
-					let [tempPos] = positionFromFen(lastNode.fen)
-
-					tempPos = tempPos as Chess
-
-					const ctx = tempPos.ctx();
-
-					let black = tempPos.board.black
-					let randomChoice: number = randomSquare(black) as number
-
-					let i = 0;
-
-					while (randomChoice != undefined && pos.dests(randomChoice, ctx).size() == 0) {
-						randomChoice = randomSquare(black) as number
-
-						i++;
-
-						if (i > 500) throw "bad boy";
-					}
-
-					const move: NormalMove = {
-						from: randomChoice,
-						to: randomSquare(pos.dests(randomChoice, ctx)) as number
-					}
-
-					console.log(pos.board.occupied.has(randomChoice), pos.dests(randomChoice, ctx))
-
-					console.log(move, randomChoice)
-
-					storeMakeMove({
-						payload: move,
-						clock: (pos.turn === "white" ? whiteTime : blackTime) ?? undefined
-					});
+					ChessGPT.doRandomMove(chessGPTArgs);
 				})();
-
-				// const setup = parseFen(lastNode.fen).unwrap();
-
-				// setup.board.set(parseSquare("d4"), {
-				//   role: "rook",
-				//   color: "black"
-				// });
-
-				// setFen(makeFen(setup))
-
-				// // "d8-d4", "Rd4"
-
-				// let x = {
-				//   from: parseSquare("d8"),
-				//   to: parseSquare("d4")
-				// }
-
-				// const newMoveNode = createNode({
-				//   fen: makeFen(setup),
-				//   move: x,
-				//   san: "Rd4",
-				//   halfMoves: lastNode.halfMoves + 1,
-				//   // clock,
-				// });
 			}
 		}
 	}, [
